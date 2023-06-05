@@ -3,11 +3,10 @@ layout: page
 title: Super-resolution
 img: images/SR_portfolio.png
 collection: projects
-importance: 3
-category: work
+
+
 ---
-<!-- excerpt: "Spatial Resolution Enhancement of Images with Linear and Learning-based Techniques<br/><img src='/images/SR_portfolio.png'/><br/> Original and Reconstructed Images (Scale Factor in order: 2, 3, 4)" -->
-<!-- <br/> -->
+
 Super-resolution (SR) techniques aim to increase the spatial resolution of a low-resolution (LR) image, which is acquired by an imaging device. According to the image observation model for still images, a high-resolution (HR) continuous scene is first captured by the device and digitalized by an analog-to-digital converter. After the analog-to-digital conversion, the HR image passes through a degradation system, which consists of the geometric transformation, blurring effects, downsampling, and noise addition. A general formula to define the degradation system in the image acquisition systems can be defined as follows:
 <p align="center">
   <b>$\textbf{I}^{\textit{LR}} = A H C \textbf{ I}^{\textit{HR}} + N$</b><br>
@@ -38,3 +37,6 @@ Checkerboard artifacts can be eliminated with an ideal low-pass filter. The radi
   <br/>Left: Image before Low-pass Filtering, Right: Image after Low-pass Filtering<br/>
   Fig. 3: Reconstructed 'butterfly' Images<br/>
 </p>
+
+<!-- excerpt: "Spatial Resolution Enhancement of Images with Linear and Learning-based Techniques<br/><img src='/images/SR_portfolio.png'/><br/> Original and Reconstructed Images (Scale Factor in order: 2, 3, 4)" -->
+<!-- <br/> -->
