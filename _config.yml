@@ -192,7 +192,6 @@ collections:
     permalink: /:collection/:path/
 
 
-
 # Defaults
 defaults:
   # _posts
@@ -245,10 +244,12 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
+      layout: page
+#       layout: single
       author_profile: true
       share: true
       comment: true
+      horizontal: false
   # _talks
   - scope:
       path: ""
