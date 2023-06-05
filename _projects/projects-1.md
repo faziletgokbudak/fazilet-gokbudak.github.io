@@ -3,8 +3,6 @@ layout: page
 title: "Blackgrass Detection"
 img: images/Blackgrass.png
 collection: projects
-importance: 2
-category: work
 
 
 ---
