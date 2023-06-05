@@ -244,12 +244,10 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: page
-#       layout: single
+      layout: single
       author_profile: true
       share: true
       comment: true
-      horizontal: false
   # _talks
   - scope:
       path: ""
