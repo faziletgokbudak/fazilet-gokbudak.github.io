@@ -1,9 +1,13 @@
 ---
-title: "Blackgrass Detection with Deep Neural Networks"
-excerpt: "This project was carried out under [Ceres](https://www.ceresagritech.org/projects/autonomous-black-grass-detection/) funding. We met the final milestone of the project, in which our model trained with a novel dataset achieved more than 80% accuracy in blackgrass detection.<br/><img src='/images/Blackgrass.png'>"
+layout: page
+title: "Blackgrass Detection"
+img: images/Blackgrass.png
 collection: projects
+importance: 1
+category: work
 ---
-
+<!-- excerpt: "This project was carried out under [Ceres](https://www.ceresagritech.org/projects/autonomous-black-grass-detection/) funding. We met the final milestone of the project, in which our model trained with a novel dataset achieved more than 80% accuracy in blackgrass detection.<br/><img src='/images/Blackgrass.png'>"
+ -->
 ### Introduction
 Blackgrass is a native annual grass weed that can be found all over the United Kingdom, but is most widespread in the cereal-growing areas of southern and eastern England. Blackgrass has become a major headache for many farmers due to its prevalence over autumn-sown arable crops and herbicide resistance. 
 The aim of the project is to develop a computer vision-based weed detection system that can reliably detect blackgrass in cereal crops. 
