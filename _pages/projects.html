@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Research"
 permalink: /projects/
 author_profile: true
@@ -20,20 +20,20 @@ horizontal: false
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
-  <div class="container">
+<!--   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
-  {%- else -%}
+  {%- else -%} -->
   <div class="grid">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
+<!--   {%- endif -%} -->
   {% endfor %}
 
 {%- else -%}
