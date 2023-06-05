@@ -1,8 +1,13 @@
 ---
+layout: page
 title: "ISI Reduction Methods for Molecular Communication Networks"
-excerpt: "<img src='/images/mol-comm-sys.png'><br/>Spatial Receptor Allocation for a Multiple Access Hub"
+img: images/mol-comm-sys.png
 collection: projects
+importance: 4
+category: work
 ---
+<!-- excerpt: "<img src='/images/mol-comm-sys.png'><br/>Spatial Receptor Allocation for a Multiple Access Hub"
+ -->
 
 Molecular Communications via Diffusion (MCvD) is a communications scheme, where the information is transmitted through the free-diffusion of carrier molecules. In our research, the communications system was designed as On-Off Keying (OOK). That is, if the number of carrier molecules that arrive at the receiver during the specified time interval exceeds a threshold value, then the transmitted bit will be 1. Otherwise, it will be 0.
 
