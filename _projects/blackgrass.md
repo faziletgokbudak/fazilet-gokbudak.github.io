@@ -1,9 +1,11 @@
 ---
 layout: page
-title: "Blackgrass Detection"
-img: images/Firefly_cute_monster.jpg
+title: Blackgrass
+img: images/fakes000481.jpeg
 collection: projects
-
+importance: 2
+category: work
+description: Blackgrass Detection with Deep Neural Networks
 
 ---
 
