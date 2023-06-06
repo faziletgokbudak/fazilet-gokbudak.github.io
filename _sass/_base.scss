@@ -25,8 +25,9 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #FFFFFF;
-  padding: 30px;
+  padding: 20px;
   align-content: center;
+  grid-gap: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -273,9 +274,8 @@ figure {
   }
 
   .grid-item {
-     background-color: $grey-color-light;
-     border: 1px solid $black-color;     
-//     width: 250px;
+     background-color: $white-color;
+     border: 1px solid $grey-color-light;     
      margin-bottom: 10px;
   }
 
