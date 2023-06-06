@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Blackgrass Detection"
-img: images/Blackgrass.png
+img: images/Firefly_cute_monster.jpg
 collection: projects
 
 
