@@ -8,6 +8,13 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
