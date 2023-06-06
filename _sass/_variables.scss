@@ -47,6 +47,10 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
+$grey-color                 : #828282;
+$grey-color-light           : lighten($grey-color, 40%);
+$grey-color-dark            : darken($grey-color, 25%);
+
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -55,6 +59,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
+$black-color                : #000000;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
