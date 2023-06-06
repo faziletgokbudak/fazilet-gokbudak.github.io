@@ -23,9 +23,10 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  align-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
