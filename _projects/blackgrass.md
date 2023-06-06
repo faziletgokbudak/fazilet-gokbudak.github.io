@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Blackgrass
 img: images/fakes000481.jpeg
 collection: projects
