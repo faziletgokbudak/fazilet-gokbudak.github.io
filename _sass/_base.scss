@@ -273,8 +273,10 @@ figure {
   }
 
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+     background-color: $grey-color-light;
+     border: 1px solid $black-color;     
+//     width: 250px;
+     margin-bottom: 10px;
   }
 
   h2.category {
