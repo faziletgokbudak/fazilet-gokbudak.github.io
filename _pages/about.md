@@ -21,10 +21,13 @@ Research interests: 2D Computer Graphics, Computer Vision
 
 ## Publications
 
-* Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." arXiv preprint arXiv:2210.01217.
+* Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." arXiv preprint arXiv:2210.01217. 
+
+  <kbd> <br> [Project Page](https://faziletgokbudak.github.io/projects/one-shot-md/) <br> </kbd>
+  <kbd> <br> [Paper](https://faziletgokbudak.github.io/publications/arXiv-One-shot.pdf) <br> </kbd>
+
 
 * Gokbudak, F., Akdeniz, B. C., Tugcu, T., & Pusane, A. E. (2019). "Spatial receptor allocation for a multiple access hub in nanonetworks.." IEEE Transactions on Molecular, Biological and Multi-Scale Communications, 5(1), 63-67.
 
-<!-- Welcome to my website!
-
-<button name="button">Click me</button> -->
+  <kbd> <br> [Project Page](https://faziletgokbudak.github.io/projects/mol-comm/) <br> </kbd>
+  <kbd> <br> [Paper](https://faziletgokbudak.github.io/publications/SpatialReceptorAllocation.pdf) <br> </kbd>
