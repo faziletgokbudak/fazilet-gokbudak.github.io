@@ -22,6 +22,9 @@ Research interests: 2D Computer Graphics, Computer Vision
 ## Publications
 
 * Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." arXiv preprint arXiv:2210.01217. 
+  <kbd> <br> [Title][Link] <br> </kbd>
+  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot-md/';">Paper</button>
+
 
   <kbd> <br> [Project Page](https://faziletgokbudak.github.io/projects/one-shot-md/) <br> </kbd>
   <kbd> <br> [Paper](https://faziletgokbudak.github.io/publications/arXiv-One-shot.pdf) <br> </kbd>
