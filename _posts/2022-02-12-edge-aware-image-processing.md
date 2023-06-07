@@ -1,7 +1,7 @@
 ---
 title: 'Edge-aware Image Processing'
 date: 2022-02-12
-teaser: images/edge-aware-image-editing.gif
+teaser: images/convolution.png
 ---
 
 Image filtering is a fundamental technique for enhancing or manipulating an image. By changing the pixel values, colors, it modifies the appearance of an image. 
