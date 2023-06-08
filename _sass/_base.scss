@@ -285,7 +285,7 @@ figure {
 
      
      &:hover {
-      box-shadow: 1px 10px 15px solid $light-gray; 
+      box-shadow: 1px 10px 15px $light-gray; 
     }
      
   }
@@ -296,11 +296,11 @@ figure {
    
   h2.category {
     color: $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: right;
   }
 }
 
