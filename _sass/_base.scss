@@ -280,7 +280,12 @@ figure {
      border-radius: $border-radius;
      -webkit-transition: $global-transition;
      transition: $global-transition;
+     
+     &:hover {
+      border: 5px solid $grey-color-light; 
+    }
   }
+   
    
   h2.category {
     color: $grey-color-light;
