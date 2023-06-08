@@ -30,6 +30,7 @@ body {
   grid-gap: 10px;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
@@ -275,17 +276,22 @@ figure {
 
   .grid-item {
      background-color: $white-color;
-     border: 1px solid $grey-color-light;     
+     border: 1px solid $grey-color-light;    
+     box-shadow: 1px 3px 5px $light-grey;
      margin-bottom: 10px;
      border-radius: $border-radius;
      -webkit-transition: $global-transition;
      transition: $global-transition;
      
      &:hover {
-      border: 5px solid $grey-color-light; 
+      box-shadow: 5px solid $grey-color-light; 
     }
+     
   }
    
+  p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+  color: var(--global-text-color);
+}
    
   h2.category {
     color: $grey-color-light;
