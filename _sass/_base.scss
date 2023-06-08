@@ -282,9 +282,11 @@ figure {
      border-radius: $border-radius;
      -webkit-transition: $global-transition;
      transition: $global-transition;
+     justify-content: center;
+     align-items: center;
      
      &:hover {
-      box-shadow: 5px solid $grey-color-light; 
+      box-shadow: 1px 3px 15px solid $light-gray; 
     }
      
   }
@@ -299,7 +301,6 @@ figure {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
   }
 }
 
