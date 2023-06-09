@@ -1,7 +1,11 @@
-<a class="grid-item" href="{{ project.url | relative_url }}">
+<div class="grid-item">
+  <a href="{{ project.url | relative_url }}">
   {% if project.img %}
   <img src="{{ project.img | relative_url }}" alt="project thumbnail">
   {% endif %}
   <h2 class="card-title">{{ project.title }}</a></h2>
   <h3 class="card-text"><span class='notbold'>{{ project.description }}</span></a></h3>
-</a>
+
+  </a>
+  </a>
+</div>
