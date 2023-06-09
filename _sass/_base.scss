@@ -261,8 +261,6 @@ figure {
     }
     .card-title {
       color: $light-gray;
-      font-size: $type-size-3;
-      margin-left: 1rem;
     }
   }
 
@@ -292,15 +290,10 @@ figure {
      
   }
    
-  p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
-  color: var(--global-text-color);
-  }
-  
-  p {
+  h2 {
    margin-left: 1rem;
    text-align: left;
    text-decoration: none;
-   font-size: $type-size-4;
   }
    
   h3 {
