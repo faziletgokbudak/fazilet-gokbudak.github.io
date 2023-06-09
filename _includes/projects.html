@@ -3,7 +3,7 @@
   <a href="{{ project.redirect }}" target="_blank">
   {% else %}
   <a href="{{ project.url | relative_url }}">  {% if project.img %}
-    
+  {% endif %}
   <img src="{{ project.img | relative_url }}" alt="project thumbnail">
   {% endif %}
   <h2 class="card-title">{{ project.title }}</a></h2>
