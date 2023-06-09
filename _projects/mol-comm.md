@@ -6,6 +6,7 @@ collection: projects
 importance: 4
 category: work
 description: ISI Reduction Methods for Molecular Communication Networks
+url: https://faziletgokbudak.github.io/projects/mol-comm/
 ---
 
 <!-- excerpt: "<img src='/images/mol-comm-sys.png'><br/>Spatial Receptor Allocation for a Multiple Access Hub"
