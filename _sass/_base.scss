@@ -28,6 +28,7 @@ body {
   padding: 20px;
   align-content: center;
   grid-gap: 10px;
+  align-items: flex-start
 }
 
 
@@ -255,23 +256,8 @@ figure {
     }
   }
    
-  .card {
-    img {
-      width: 100%;
-    }
-    .card-title {
+  .card-title {
       color: $light-gray;
-    }
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
   }
 
   .grid-item {
@@ -302,7 +288,7 @@ figure {
   }
    
   h3 {
-   color: $grey-color-light;
+   color: $grey-color-dark;
    margin-left: 1rem;
    margin-right: 2rem;
    text-align: left;
