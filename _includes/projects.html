@@ -3,6 +3,9 @@
   <a href="{{ project.url | relative_url }}">
   {% endif %}
     <div class="card">
+      {% if project.url %}
+      <a href="{{ project.url | relative_url }}">
+      {% endif %}
       {% if project.img %}
       <img src="{{ project.img | relative_url }}" alt="project thumbnail">
       {% endif %}
