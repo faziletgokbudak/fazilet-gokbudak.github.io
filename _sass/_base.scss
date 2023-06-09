@@ -282,7 +282,7 @@ figure {
      border-radius: $border-radius;
      -webkit-transition: $global-transition;
      transition: $global-transition;
-
+     margin-bottom: 10px;
      
      &:hover {
       box-shadow: 1px 10px 15px $light-gray; 
