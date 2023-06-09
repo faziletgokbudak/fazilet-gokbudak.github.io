@@ -4,7 +4,7 @@
       <img src="{{ project.img | relative_url }}" alt="project thumbnail">
       {% endif %}
       <h2 class="card-title text-lowercase">{{ project.title }}</a></h2>
-      <h3 class="card-text">{{ project.description }}</a></h3>
+      <h3 class="card-text"><span class='notbold'>but this text should not</span>{{ project.description }}</a></h3>
     
   </a>
   </a>
