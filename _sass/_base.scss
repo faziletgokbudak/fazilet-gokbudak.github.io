@@ -266,7 +266,6 @@ figure {
      -webkit-transition: $global-transition;
      transition: $global-transition;
      margin-bottom: 10px;
-     display:flex;
      &:hover {
       box-shadow: 1px 10px 15px $light-gray; 
     }
