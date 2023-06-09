@@ -281,6 +281,7 @@ figure {
   }
    
   h2 {
+   margin-top: 0;
    margin-left: 1rem;
    margin-right: 2rem;
    text-align: left;
@@ -288,6 +289,8 @@ figure {
   }
    
   h3 {
+   margin-top: 0;
+   margin-bottom: 1rem;
    color: $grey-color-dark;
    margin-left: 1rem;
    margin-right: 2rem;
@@ -295,14 +298,6 @@ figure {
    text-decoration: none;
   }
    
-  h2.category {
-    color: $grey-color-light;
-    padding-top: 0.5rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
 }
 
 /* Figure captions */
