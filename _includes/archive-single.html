@@ -12,37 +12,26 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<a href="{{ base_path }}{{ post.url }}"style="text-decoration: none">
+  <div class="flex-container">
+    <div style="flex-basis: 70%">
 
-  <a href="{{ base_path }}{{ post.url }}"style="text-decoration: none">
-    <div class="flex-container">
-      <div style="flex-basis: 70%">
+      {% if post.title %}
+        <p style="color:black;font-weight: bold;font-size:1.25em;margin-top:-0.3em">{{ post.title }}</p>
+      {% endif %}
 
-        {% if post.title %}
-          <p style="color:black;font-weight: bold;font-size:1.25em;margin-top:-0.3em">{{ post.title }}</p>
-        {% endif %}
+      {% if post.description %}
+        <p style="color:gray; font-size:1em; font-weight: lighter;margin-top:-0.5em">{{ post.description }}</p>
+      {% endif %}
 
-        {% if post.description %}
-          <p style="color:gray; font-size:1em; font-weight: lighter;margin-top:-0.5em">{{ post.description }}</p>
-        {% endif %}
-
-        {% if post.read_time %}
-          <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
-      </div>
-      <div style="flex-basis: 30%">
-        {% if post.teaser %}
-          <img src="{{ post.teaser | relative_url }}" alt="Post thumbnail">
-        {% endif %}
-      </div>
-    </div> 
-  </a>
-  {% if post.citation and post.paperurl %}
-    <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-  {% elsif post.citation %}
-    <p>{{ post.citation }} </p>
-
-  {% elsif post.paperurl %}
-    <p><a href=" {{ post.paperurl }} "><u>Paper</u></a></p>
-  {% endif %}
-</div>
+      {% if post.read_time %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+    </div>
+    <div style="flex-basis: 30%">
+      {% if post.teaser %}
+        <img src="{{ post.teaser | relative_url }}" alt="Post thumbnail">
+      {% endif %}
+    </div>
+  </div> 
+</a>
