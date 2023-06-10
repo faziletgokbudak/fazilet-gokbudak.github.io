@@ -2,9 +2,19 @@
 layout: default
 ---
 
-{% include sidebar.html %}
-<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="archive">
-    {{ content }}
-  </div>
-</article>
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+    <!-- Content -->
+
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="container mt-5">
+          <div class="row">
+            <!-- main content area -->
+            <div class="archive">
+              {{ content }}
+            </div>
+          </div>
+      </div>
+    </article>
+</div>
