@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <a href="{{ base_path }}{{ post.url }}">
+    <a href="{{ base_path }}{{ post.url }}"style="text-decoration: none">
       <div class="flex-container">
         <div style="flex-basis: 70%">
 <!--           {% if post.link %}
@@ -25,7 +25,7 @@
           {% endif %} -->
           
           {% if post.title %}
-            <p style="color:black;font-weight: bold;font-size:1.25em;text-decoration: none">{{ post.title }}</p>
+            <p style="color:black;font-weight: bold;font-size:1.25em">{{ post.title }}</p>
           {% endif %}
           
           {% if post.description %}
@@ -38,7 +38,7 @@
         </div>
         <div style="flex-basis: 30%">
           {% if post.teaser %}
-            <img src="{{ post.teaser | relative_url }}" alt="Post thumbnail">
+            <img src="{{ post.teaser | relative_url }}" alt="Post thumbnail" style="margin-top:0.3em">
           {% endif %}
         </div>
       </div> 
