@@ -12,6 +12,13 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
 <div id="main" role="main">
   {% include sidebar.html %}
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
