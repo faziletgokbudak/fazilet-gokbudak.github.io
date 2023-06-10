@@ -208,8 +208,6 @@ figure {
   img {
     width: 100%;
     border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
   }
 
   > a {
@@ -392,7 +390,7 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+b, i, strong, em, blockquote, p, q, span, card, figure, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
