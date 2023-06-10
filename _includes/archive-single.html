@@ -22,9 +22,9 @@
         {% else %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink"style="color:black;font-weight: bold;font-size:1.25em;text-decoration: none">{{ title }}</a>
         {% endif %}
-
+        
         {% if post.description %}
-          <h3 style="color:gray; font-size:1em; font-weight: normal;">{{ post.description }}</h3>
+          <h3 style="color:gray; font-size:1em; font-weight: normal;margin-top:-0.5em">{{ post.description }}</h3>
         {% endif %}
     
         {% if post.read_time %}
