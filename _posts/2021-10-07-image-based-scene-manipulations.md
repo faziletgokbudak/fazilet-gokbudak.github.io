@@ -5,8 +5,6 @@ teaser: "images/image_based_3d_scene.png"
 description: Instead of manipulating 3D scenes with traditional graphics pipelines, can we edit rendered images in a photoreaistic way to reduce the computational complexity?
 ---
 
-# Image-based Scene Manipulations
-
 <p align="center">
   <img src="/images/image_based_3d_scene.png" width="700"/><br/>
   <br/>Fig. 1: Image-based scene manipulations edit 2D views of a scene to change the appearance of objects. Unlike scene-level manipulations, they do not infer the 3D information.<br/>
