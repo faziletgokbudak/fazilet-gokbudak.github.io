@@ -2,9 +2,9 @@
 title: 'Edge-aware Image Processing'
 date: 2022-02-12
 teaser: images/convolution.png
+description: Image filtering is a fundamental technique for enhancing or manipulating an image. How to modify the appearance of an image via filters? 
 ---
 
-Image filtering is a fundamental technique for enhancing or manipulating an image. By changing the pixel values, colors, it modifies the appearance of an image. 
 
 Filters, also known as kernels or masks, operate in the neighborhood of a pixel by applying a certain function to the neighbor pixels of the corresponding input pixel [1].
 The neighborhood of a pixel contains a set of pixels that are closest to the pixel in the spatial domain, and the size of the set is determined by the kernel size. 
