@@ -23,8 +23,8 @@
           <a href="{{ base_path }}{{ post.url }}" rel="permalink"style="color:black;font-weight: bold;font-size:1.25em;text-decoration: none">{{ title }}</a>
         {% endif %}
 
-        {% if post.excerpt %}
-        <p style="color:gray;font-size:0.75em;">{{ post.excerpt | markdownify }}</p>
+        {% if post.description %}
+          <h3 style="color:gray; font-size:0.75em">{{ post.description }}</h3>
         {% endif %}
     
         {% if post.read_time %}
