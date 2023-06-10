@@ -1,7 +1,7 @@
 ---
 layout: single
 title: MCvD
-img: images/mol-comm-sys.png
+teaser: images/mol-comm-sys.png
 collection: projects
 importance: 4
 category: work
