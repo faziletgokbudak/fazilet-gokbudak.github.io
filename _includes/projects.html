@@ -1,20 +1,20 @@
-<div class="grid-item">
-  {% if project.redirect %}
-  <a href="{{ project.redirect }}" target="_blank">
-  {% else %}
-  <a href="{{ project.url | relative_url }}">
-  {% endif %}
-    <div class="card-item">
-      {% if project.img %}
-      <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-      {% endif %}
-      {% if project.teaser %}
-      <img src="{{ project.teaser | relative_url }}" alt="project thumbnail">
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</a></h2>
-        <h3 class="card-text"><span class='notbold'>{{ project.description }}</span></a></h3>
+{% if project.redirect %}
+<a href="{{ project.redirect }}" target="_blank">
+{% else %}
+<a href="{{ project.url | relative_url }}">
+  <div class="grid-item">
+    {% endif %}
+      <div class="card-item">
+        {% if project.img %}
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        {% endif %}
+        {% if project.teaser %}
+        <img src="{{ project.teaser | relative_url }}" alt="project thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ project.title }}</a></h2>
+          <h3 class="card-text"><span class='notbold'>{{ project.description }}</span></a></h3>
+        </div>
       </div>
-    </div>
-  </a>
-</div>
+  </div>
+</a>
