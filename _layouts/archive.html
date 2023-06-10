@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include base_path %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -12,12 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
 
 <div id="main" role="main">
   {% include sidebar.html %}
