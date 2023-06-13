@@ -1,6 +1,6 @@
 ---
 title: 'Material Appearance Representation'
-date: 2022-02-12
+date: 2023-06-13
 teaser: images/BRDF.png
 description: Material properties define its appearance. How do we represent the appearance of materials?
 ---
@@ -11,9 +11,9 @@ Reflectance describes the amount of light reflected from the surface of a materi
 
 <p align="center">
   <img src="/images/BRDF.png" width="75%" /><br/>
-  <br/>Fig. 1: How much incoming light is reflected from the surface is defined by the bidirectional reflectance distribution function (BRDF)[1]<br/>
+  <br/>Fig. 1: How much incoming light is reflected from the surface is defined by the bidirectional reflectance distribution function (BRDF).[1]<br/>
 </p>
 
 
 ## References
-[1] Physically Based Rendering: From Theory To Implementation, © 2004-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys, 
+[1] Physically Based Rendering: From Theory To Implementation, © 2004-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys
