@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Fazilet Gokbudak"
   avatar           : "IMG_4980.jpg"
-  bio              : "Computer Science PhD Student at University of Cambridge"
+  bio              : "PhD Student at University of Cambridge"
   location         : "Cambridge, United Kingdom"
-  employer         :
+  employer         : #"Department of Computer Science and Technology"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=xDwvJC0AAAAJ&hl=en&oi=ao"
   email            :
