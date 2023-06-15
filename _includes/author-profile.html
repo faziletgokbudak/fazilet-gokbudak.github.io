@@ -19,7 +19,34 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
-  <div class="author__urls-wrapper">
+  <div class="flex-container">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      {% if author.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% endif %}
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %}
+       {% if author.researchgate %}
+        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> </a></li>
+      {% endif %}
+      {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> </a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> </a></li>
+      {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> </a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> </a></li>
+      {% endif %}
+    </ul>
+  </div>
+  
+<!--   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
@@ -119,5 +146,5 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
-  </div>
+  </div> -->
 </div>
