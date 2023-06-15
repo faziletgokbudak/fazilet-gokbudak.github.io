@@ -54,7 +54,35 @@ Body or diffuse reflection gives objects a matte appearance, and materials with 
   <br/>Fig. 3: Surface vs Diffuse reflection [3].<br/>
 </p>
 
+In general, materials exhibit both reflection types. Hence, the reflection becomes hybrid, which is the combination of specular and diffuse reflection:
+
+<p align="center">
+  <img src="/images/hybrid-reflection.jpg" /><br/>
+  <br/>Fig. 4: Hybrid reflection is a combination of both diffuse and specular reflection.<br/>
+</p>
+
+## Reflectance (BRDF) Models
+Some commonly used reflectance models are as follows:
+
+### Lambertian Model
+The Lambertian model states that the brightness of a surface remains the same for all viewing directions. It represents the body (diffuse) reflection.
+
+The surface BRDF will be the same no matter what direction you look at the surface from. So, the BRDF will be a constant:
+
+$$f(\theta_r, \phi_r, \theta_i, \phi_i) = \frac{\rho_d}{\pi}$$, where $\rho_d$ is called albedo and it has a range of [0,1], 0 for a completely black surface and 1 for a completely white surface.
+    
+Lambertian model is one of the commonly used BRDF models in computer vision and graphics since it roughly covers a variety of real-world material surfaces. On a Lambertian surface, we get equal radiance in all directions. That is, the radiance $L$ is independent of viewing direction. However, as the angle of the incidence $\theta_i$ increases, the radiance value drops. This is due to the effect of irradiance. Therefore, the brigthest point on a Lambertian surface will be the one that the illumination comes up above (angle of incidence is 0).
+
+### Ideal Specular Model
+This model represents ideal specular reflection where the surface acts like a perfect mirror. Hence, all reflections happen at the interface, not underneath the surface. Also, all the energy of reflected light goes in a single direction. So, in such models, the viewer receives the light and observe the surface only if the angle of viewing direction is the same as the angle of incoming light about the surface normal.
+
+### Phong Reflection Model
+
+The Phong reflection model, one of the most popular reflection models in computer graphics, 
+
+
 ## References
 [1] Physically Based Rendering: From Theory To Implementation, © 2004-2021 Matt Pharr, Wenzel Jakob, and Greg Humphreys
 [2] Ren Ng, CS184/284A Lecture Notes, Lecture 12, Slide 22, https://cs184.eecs.berkeley.edu/sp16/lecture/reflection/slide_022
 [3] https://astrobites.org/2020/10/22/specular-reflections-titan/
+[4] https://3dtotal.com/tutorials/t/brief-consideration-about-materials-pedro-toledo-texturing-lighting
