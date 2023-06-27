@@ -30,3 +30,10 @@ Research interests: 2D Computer Graphics, Computer Vision
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/mol-comm/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/SpatialReceptorAllocation.pdf';">Paper</button>
+
+<div class="social">
+  <div class="contact-icons">
+    {% include social.html %}
+  </div>
+  <div class="contact-note">{{ site.contact_note }}</div>
+</div>
