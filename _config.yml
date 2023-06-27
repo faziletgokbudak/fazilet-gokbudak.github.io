@@ -86,9 +86,9 @@ author:
   location         : "Cambridge, United Kingdom"
   employer         : #"Department of Computer Science and Technology"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=xDwvJC0AAAAJ&hl=en&oi=ao"
+  googlescholar    : xDwvJC0AAAAJ&hl
   email            :
-  researchgate     : "https://www.researchgate.net/profile/Fazilet-Gokbudak"
+  researchgate     : Fazilet-Gokbudak
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "faziletgokbudak"
+  github           : faziletgokbudak
   google_plus      :
   keybase          :
   instagram        :
