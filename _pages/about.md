@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -11,7 +10,7 @@ Hi there! I am a PhD student in Computer Science at the University of Cambridge,
 
 Research interests: 2D Computer Graphics, Computer Vision
 
-## News
+# News
 * Awarded with Graduate Student Travel Award by Queens' College to attend this year's Siggraph🎉 Looking forward to attending the conference and following up with emerging technologies in computer graphics🤓
 * Supervised Artificial Intelligence course this term.
 * As one of the organisers, thrilled to announce the ninth Oxbridge Women in Computer Science Conference, which will be held on the 29th of April 2023 in Cambridge, UK. 👩‍💻👨‍💻 For details and registration, please check out our [website](https://fg4051.wixsite.com/oxbridgeconference).
@@ -19,7 +18,7 @@ Research interests: 2D Computer Graphics, Computer Vision
 * Presented our poster entitled “Patch-adaptive Transformation Blending for One-Shot Photo Retouching” at [ICCP 2022](https://iccp2022.iccp-conference.org/), which was held in Caltech, Pasadena, August 1-3, 2022😊
 
 
-## Publications
+# Publications
 
 * Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." arXiv preprint arXiv:2210.01217. 
 
