@@ -35,5 +35,4 @@ Research interests: 2D Computer Graphics, Computer Vision
   <div class="contact-icons">
     {% include social.html %}
   </div>
-  <div class="contact-note">{{ site.contact_note }}</div>
 </div>
