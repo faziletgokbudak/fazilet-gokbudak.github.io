@@ -171,7 +171,11 @@
     }
   }
 }
-
+@media only screen and (min-width: 768px) {
+  author__urls-wrapper {
+    display: none;
+  }
+}
 
 .author__urls {
   display: none;
@@ -187,9 +191,6 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  @include breakpoint($large) {
-     display: none;
-   }
   // @include breakpoint($large) {
   //   display: block;
   //   position: relative;
