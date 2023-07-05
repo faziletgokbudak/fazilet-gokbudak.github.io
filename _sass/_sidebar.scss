@@ -87,6 +87,8 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -98,24 +100,28 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  // padding-left: 15px;
+  // padding-right: 25px;
   line-height: 1;
   align-content: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
 
 .author__name {
   margin: 0;
   text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
+  
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -128,7 +134,9 @@
 }
 
 .author__bio {
-  margin: 0;
+  // margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   @include breakpoint($large) {
     margin-top: 10px;
