@@ -267,8 +267,6 @@ figure {
 
 /* Socials */
 
-
-@media (min-width: 768px) {
 .social {
   text-align: center;
   .contact-icons {
@@ -289,6 +287,11 @@ figure {
     font-size: 0.4rem;
   }
 }
+
+@media only screen and (max-width: 768px) {
+   .social{
+      display: none;
+   }
 }
 
 /* Projects */
