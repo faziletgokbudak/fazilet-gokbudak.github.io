@@ -288,6 +288,12 @@ figure {
   }
 }
 
+@media (min-width: 768px) {
+  .social {
+  display: none;
+  }
+}
+
 /* Projects */
 
 .projects {
