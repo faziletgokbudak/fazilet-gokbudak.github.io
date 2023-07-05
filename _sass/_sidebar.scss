@@ -192,13 +192,13 @@
   cursor: default;
 
   @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    display: none;
+    // position: relative;
+    // margin: 0;
+    // padding: 0;
+    // border: 0;
+    // background: transparent;
+    // box-shadow: none;
   }
 
   &:before {
