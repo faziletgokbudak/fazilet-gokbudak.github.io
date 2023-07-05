@@ -101,8 +101,6 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  align-content: center;
-  text-align: center;
 
 
   @include breakpoint($large) {
@@ -151,6 +149,9 @@
     a {
       margin-bottom: 0;
     }
+    @include breakpoint($large) {
+       display: none;
+     }
   }
 
   @include breakpoint($large) {
