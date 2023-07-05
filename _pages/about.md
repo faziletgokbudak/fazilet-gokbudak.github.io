@@ -6,7 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! I am a PhD student in Computer Science at the University of Cambridge, working with Dr Cengiz Oztireli. My research aims at helping creative industries by automating manual workflows with machine learning (ML) techniques. During my PhD, I would like to develop techniques that can integrate artist-created models into ML algorithms to manipulate images.
+
+I am a PhD student in Computer Science at the University of Cambridge, working with Dr Cengiz Oztireli. My research spans a range of machine learning applications, such as generative models, convolutional neural networks, or multilayer perceptrons, for appearance manipulations. My experience in the vision/graphics field includes but is not limited to image generation, image-to-image translation, and classification.
 
 Research interests: 2D Computer Graphics, Computer Vision
 
@@ -29,9 +30,3 @@ Research interests: 2D Computer Graphics, Computer Vision
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/mol-comm/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/SpatialReceptorAllocation.pdf';">Paper</button>
-
-<div class="social">
-  <div class="contact-icons">
-    {% include social.html %}
-  </div>
-</div>
