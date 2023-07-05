@@ -3,26 +3,30 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+<div class="author">
 
-<div class="author__avatar">
-  {% if author.avatar contains "://" %}
-    <img src="{{ author.avatar }}" alt="{{ author.name }}">
-  {% else %}
-    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
-  {% endif %}
+  <div class="author__avatar">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+    {% else %}
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    {% endif %}
+  </div>
+  
+  <div class="author__content">
+    <h3 style="text-align:center;" class="author__name">{{ author.name }}</h3>
+    {% if author.bio %}<p style="text-align:center;" class="author__name">{{ author.bio }}</p>{% endif %}
+    {% if author.employer %}<p style="text-align:center;font-size:14px" class="author__name">{{ author.employer }}</p>{% endif %}
+  </div>
+  
+  <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+  </div>
+
 </div>
 
-<div class="author__content">
-  <h3 style="text-align:center;" class="author__name">{{ author.name }}</h3>
-  {% if author.bio %}<p style="text-align:center;" class="author__name">{{ author.bio }}</p>{% endif %}
-  {% if author.employer %}<p style="text-align:center;font-size:14px" class="author__name">{{ author.employer }}</p>{% endif %}
-</div>
-
-<div class="social">
-    <div class="contact-icons">
-      {% include social.html %}
-    </div>
-</div>
 <!-- <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
