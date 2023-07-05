@@ -252,6 +252,9 @@
     &:hover {
       text-decoration: underline;
     }
+    @include breakpoint($large) {
+      display: none;
+    }
   }
 }
 
