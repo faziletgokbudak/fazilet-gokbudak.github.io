@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science at the University of Cambridge, working with Dr Cengiz Oztireli. My research spans a range of machine learning applications, such as generative models, convolutional neural networks, or multilayer perceptrons, for appearance manipulations. My experience in the vision/graphics field includes but is not limited to image generation, image-to-image translation, and classification.
+I am a PhD student in Computer Science at the University of Cambridge, working with Dr Cengiz Oztireli. My research spans a range of machine learning applications with generative models, convolutional neural networks, or multilayer perceptrons for appearance manipulations. My experience in the vision/graphics field includes but is not limited to image generation, image-to-image translation, and classification.
 
-Research interests: 2D Computer Graphics, Computer Vision
+**Research interests:** 2D Computer Graphics, Computer Vision, Deep Learning
 
 # News
 * Awarded with Graduate Student Travel Award by Queens' College to attend this year's Siggraph🎉 Looking forward to attending the conference and following up with emerging technologies in computer graphics🤓
