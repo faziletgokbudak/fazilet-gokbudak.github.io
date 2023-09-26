@@ -24,12 +24,12 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
-* Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." arXiv preprint arXiv:2210.01217. 
+* Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." accepted by ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023).
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/arXiv-One-shot.pdf';">Paper</button>
 
-* Gokbudak, F., Akdeniz, B. C., Tugcu, T., & Pusane, A. E. (2019). "Spatial receptor allocation for a multiple access hub in nanonetworks.." IEEE Transactions on Molecular, Biological and Multi-Scale Communications, 5(1), 63-67.
+* Gokbudak, F., Akdeniz, B. C., Tugcu, T., & Pusane, A. E. (2019). "Spatial receptor allocation for a multiple access hub in nanonetworks." IEEE Transactions on Molecular, Biological and Multi-Scale Communications, 5(1), 63-67.
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/mol-comm/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/SpatialReceptorAllocation.pdf';">Paper</button>
