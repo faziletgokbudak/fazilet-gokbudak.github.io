@@ -28,6 +28,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/cvmp23_4.pdf';">Paper</button>
+  <button type="button" onclick="location.href = 'https://github.com/faziletgokbudak/One-shot-Photo-Retouching';">Code</button>
 
 * Gokbudak, F., Akdeniz, B. C., Tugcu, T., & Pusane, A. E. (2019). "Spatial receptor allocation for a multiple access hub in nanonetworks." IEEE Transactions on Molecular, Biological and Multi-Scale Communications, 5(1), 63-67.
 
