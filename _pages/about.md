@@ -14,7 +14,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 **Research interests:** 2D Computer Graphics, Computer Vision, Deep Learning
 
 # News
-* Our paper "One-shot Detail Retouching with Patch Space Neural Transformation Blending" got accepted by ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023) 🎉😊
+* Our paper "One-shot Detail Retouching with Patch Space Neural Transformation Blending" got accepted to ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023) 🎉😊
 * Awarded with Graduate Student Travel Award by Queens' College to attend this year's Siggraph🎉 Looking forward to attending the conference and following up with emerging technologies in computer graphics🤓
 * Supervised Artificial Intelligence course this term.
 * As one of the organisers, thrilled to announce the ninth Oxbridge Women in Computer Science Conference, which will be held on the 29th of April 2023 in Cambridge, UK. 👩‍💻👨‍💻 For details and registration, please check out our [website](https://fg4051.wixsite.com/oxbridgeconference).
