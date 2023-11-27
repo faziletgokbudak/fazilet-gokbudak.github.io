@@ -24,13 +24,14 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
-* Gokbudak, F., and Oztireli, C. (2023). "One-shot Detail Retouching with Patch Space Neural Transformation Blending." accepted by ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023).
-
-  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot/';">Project Page</button>
+* Fazilet Gokbudak and A. Cengiz Oztireli. 2023. One-shot Detail Retouching with Patch Space Neural Transformation Blending. In Proceedings of the 20th ACM SIGGRAPH European Conference on Visual Media Production (CVMP '23). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. https://doi.org/10.1145/3626495.3626499
+  
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/cvmp23_4.pdf';">Paper</button>
+  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://github.com/faziletgokbudak/One-shot-Photo-Retouching';">Code</button>
+  <button type="button" onclick="location.href = 'https://dl.acm.org/doi/abs/10.1145/3626495.3626499?file=Supp.zip';">Supplementary</button>
 
-* Gokbudak, F., Akdeniz, B. C., Tugcu, T., & Pusane, A. E. (2019). "Spatial receptor allocation for a multiple access hub in nanonetworks." IEEE Transactions on Molecular, Biological and Multi-Scale Communications, 5(1), 63-67.
+* Fazilet Gokbudak, Bayram Cevdet Akdeniz, Tuna Tugcu, and Ali Emre Pusane. 2019. Spatial receptor allocation for a multiple access hub in nanonetworks. IEEE Transactions on Molecular, Biological and Multi-Scale Communications 5, 1 (2019), 63–67.
 
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/mol-comm/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/SpatialReceptorAllocation.pdf';">Paper</button>
