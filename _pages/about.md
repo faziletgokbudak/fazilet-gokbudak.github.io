@@ -14,7 +14,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 **Research interests:** 2D Computer Graphics, Computer Vision, Deep Learning
 
 # News
-* Our paper "Hypernetworks for Generalizable BRDF Estimation" is now available on arXiv😊 You can find the paper here: [https://arxiv.org/pdf/2311.15783.pdf](https://arxiv.org/pdf/2311.15783.pdf). The code and the project website will be available soon too.
+* Our paper "Hypernetworks for Generalizable BRDF Estimation" is now available on arXiv😊 You can find the paper here: [https://arxiv.org/abs/2311.15783](https://arxiv.org/abs/2311.15783). The code and the project website will be available soon too.
 * Our paper "One-shot Detail Retouching with Patch Space Neural Transformation Blending" got accepted to ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023) 🎉😊
 * Awarded with Graduate Student Travel Award by Queens' College to attend this year's Siggraph🎉 Looking forward to attending the conference and following up with emerging technologies in computer graphics🤓
 * Supervised Artificial Intelligence course this term.
@@ -26,6 +26,8 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
+* Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation. [https://arxiv.org/abs/2311.15783](https://arxiv.org/abs/2311.15783)
+  
 * Fazilet Gokbudak and A. Cengiz Oztireli. 2023. One-shot Detail Retouching with Patch Space Neural Transformation Blending. In Proceedings of the 20th ACM SIGGRAPH European Conference on Visual Media Production (CVMP '23). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. https://doi.org/10.1145/3626495.3626499
   
   <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/publications/cvmp23_4.pdf';">Paper</button>
