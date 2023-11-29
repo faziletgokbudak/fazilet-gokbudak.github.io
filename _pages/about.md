@@ -23,7 +23,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
-* Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation, under review.
+* Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation. Under review.
   
   <button type="button" onclick="location.href = 'https://arxiv.org/abs/2311.15783';">ArXiv version</button>
   
