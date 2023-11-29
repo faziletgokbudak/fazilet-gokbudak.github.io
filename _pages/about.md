@@ -23,7 +23,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
-* Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation. [https://arxiv.org/abs/2311.15783](https://arxiv.org/abs/2311.15783)
+* Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation, under review. [ArXiv version](https://arxiv.org/abs/2311.15783)
   
 * Fazilet Gokbudak and A. Cengiz Oztireli. 2023. One-shot Detail Retouching with Patch Space Neural Transformation Blending. In Proceedings of the 20th ACM SIGGRAPH European Conference on Visual Media Production (CVMP '23). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. https://doi.org/10.1145/3626495.3626499
   
