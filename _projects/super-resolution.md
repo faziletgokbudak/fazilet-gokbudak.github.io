@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Super-resolution
-img: images/SR-butterly.gif
+img: images/SR-buutterfly-teaser.png
 collection: projects
 
 importance: 3
