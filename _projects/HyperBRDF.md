@@ -1,7 +1,7 @@
 ---
 layout: single
 title: HyperBRDF
-teaser: images/mol-comm-sys.png
+teaser: images/hyperbrdf-teaser.gif
 collection: projects
 importance: 1
 category: work
