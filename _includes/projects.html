@@ -1,4 +1,8 @@
+{% if project.redirect %}
+<a href="{{ project.redirect }}" target="_blank">
+{% else %}
 <a href="{{ project.url | relative_url}}"style="text-decoration: none">
+{% endif %}
   <div class="grid-item">
       <div class="card-item">
         {% if project.img %}
