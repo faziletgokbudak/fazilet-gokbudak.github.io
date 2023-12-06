@@ -174,14 +174,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/teaser.mp4"
+<!--       <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/images/Hyper-MainFig.gif"
                 type="video/mp4">
-      </video>
+      </video> -->
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        Our method aims to provide accurate reconstructions of unseen BRDFs, from sparse and unstructured real-world reflectance measurements.
       </h2>
     </div>
   </div>
@@ -254,31 +253,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            In this paper, we introduce a technique to estimate measured BRDFs from a sparse set of samples.
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+             Our approach offers accurate BRDF reconstructions that are generalizable to new materials. This opens the door to BDRF recon-
+            structions from a variety of data sources. The success of our approach relies on the ability of hypernetworks to generate
+            a robust representation of BRDFs and a set encoder that allows us to feed inputs of different sizes to the architecture.
+            We evaluate our technique both qualitatively and quantitatively on the well-known MERL dataset of 100 isotropic materials. Our approach accurately estimates the BRDFs
+            of unseen materials even for an extremely sparse sampling.
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            <ul>
+  <li><b>Generalizability and Adaptability:</b> Our methodology ensures robustness and adaptability across varying sample sizes and appearances,
+    making it highly effective for estimating the BRDFs of unseen materials from highly sparse and unstructured sampling.</li>
+  <li><b>Realism and Accuracy:</b> Our extensive evaluation on the MERL dataset demonstrates the superior performance of our approach in
+    reconstructing the BRDFs of 20 test materials from a limited number of samples, ranging from 40 to 4000, outperforming prior methods
+    in terms of appearance modeling and color preservation (by at least 2dB in peak-signal-to-noise ratio and 1 in Delta E).</li>
+            </ul>
           </p>
         </div>
       </div>
