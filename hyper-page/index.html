@@ -346,17 +346,17 @@
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            Our network is capable of BRDF editing thanks to its representation of materials in a low-dimensional space. 
+            We can easily reconstruct various appearances by linearly interpolating between the embeddings of two different materials. 
+            Slide through each reconstructed interpolation between alum-bronze and nylon:
           </p>
         </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
+            <img src="./static/images/interpolate_start.png"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
+            <p>Alum-bronze</p>
           </div>
           <div class="column interpolation-video-column">
             <div id="interpolation-image-wrapper">
@@ -364,13 +364,13 @@
             </div>
             <input class="slider is-fullwidth is-large is-info"
                    id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
+                   step="1" min="0" max="10" value="0" type="range">
           </div>
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
+            <img src="./static/images/interpolate_end.png"
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
+            <p class="is-bold">Nylon</p>
           </div>
         </div>
         <br/>
