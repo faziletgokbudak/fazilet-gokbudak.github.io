@@ -14,7 +14,7 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 **Research interests:** 2D Computer Graphics, Computer Vision, Deep Learning
 
 # News
-* Our paper "Hypernetworks for Generalizable BRDF Estimation" is now available on arXiv😊 You can find the paper here: [https://arxiv.org/abs/2311.15783](https://arxiv.org/abs/2311.15783). The code and the project website will be available soon too.
+* Our paper "Hypernetworks for Generalizable BRDF Estimation" is now available on arXiv😊 You can find the paper here: [https://arxiv.org/abs/2311.15783](https://arxiv.org/abs/2311.15783).
 * Our paper "One-shot Detail Retouching with Patch Space Neural Transformation Blending" got accepted to ACM SIGGRAPH European Conference on Visual Media Production (CVMP 2023) 🎉😊
 * Awarded with Graduate Student Travel Award by Queens' College to attend this year's Siggraph🎉 Looking forward to attending the conference and following up with emerging technologies in computer graphics🤓
 * Supervised Artificial Intelligence course this term.
@@ -26,11 +26,12 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 * Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation. Under review.
   
   <button type="button" onclick="location.href = 'https://arxiv.org/abs/2311.15783';">ArXiv version</button>
+  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/hyper-page/';">Project Page</button>
   
 * Fazilet Gokbudak and A. Cengiz Oztireli. 2023. One-shot Detail Retouching with Patch Space Neural Transformation Blending. In Proceedings of the 20th ACM SIGGRAPH European Conference on Visual Media Production (CVMP '23). Association for Computing Machinery, New York, NY, USA, Article 2, 1–10. https://doi.org/10.1145/3626495.3626499
   
   <button type="button" onclick="location.href = 'https://dl.acm.org/doi/pdf/10.1145/3626495.3626499';">Paper</button>
-  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/projects/one-shot/';">Project Page</button>
+  <button type="button" onclick="location.href = 'https://faziletgokbudak.github.io/one-shot/';">Project Page</button>
   <button type="button" onclick="location.href = 'https://github.com/faziletgokbudak/One-shot-Photo-Retouching';">Code</button>
   <button type="button" onclick="location.href = 'https://dl.acm.org/doi/abs/10.1145/3626495.3626499?file=Supp.zip';">Supplementary</button>
 
