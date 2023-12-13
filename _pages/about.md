@@ -23,16 +23,6 @@ For details about the projects, please refer to related pages on [Blog Posts](ht
 
 # Publications
 
-<div class="flex-container">
-  <div style="flex-basis: 70%">
-  <p style="color:black;font-weight: bold;font-size:1.25em;margin-top:-0.3em">{{ Hypernetworks for Generalizable BRDF Estimation }}</p>
-  <p style="color:gray; font-size:1em; font-weight: lighter;margin-top:-0.5em">{{ Hypernetworks for Generalizable BRDF Estimation }}</p>
-  </div>
-  <div style="flex-basis: 30%">
-    <img src="{{ post.teaser | relative_url }}" alt="Post thumbnail">
-  </div>
-</div> 
-
 * Fazilet Gokbudak, Alejandro Sztrajman, Chenliang Zhou, Fangcheng Zhong, Rafal Mantiuk and Cengiz Oztireli. 2023. Hypernetworks for Generalizable BRDF Estimation. Under review.
   
   <button type="button" onclick="location.href = 'https://arxiv.org/abs/2311.15783';">ArXiv version</button>
