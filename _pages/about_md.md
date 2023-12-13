@@ -2,9 +2,6 @@
 permalink: /
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I am a final-year PhD student in Computer Science at the University of Cambridge, working with Dr Cengiz Oztireli. My research focuses on machine learning applications for appearance manipulations. My experience in the vision/graphics field includes but is not limited to neural implicit representations (HyperBRDF), image generation (Amazon internship, Blackgrass), image-to-image translation (Photo retouching), and classification (Blackgrass).
