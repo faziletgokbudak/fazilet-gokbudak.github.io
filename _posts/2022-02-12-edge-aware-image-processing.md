@@ -1,7 +1,7 @@
 ---
 title: 'Edge-aware Image Processing'
 date: 2022-02-12
-teaser: images/convolution.png
+teaser: images/Edge-aware/convolution.png
 description: Image filtering is a fundamental technique for enhancing or manipulating an image. How to modify the appearance of an image via filters? 
 ---
 
@@ -16,7 +16,7 @@ these filters to an image is called convolution. 2D convolution in the spatial d
 input pixel and summed together to obtain the corresponding output pixel. 
 
 <p align="center">
-  <img src="/images/convolution.png" width="85%" /><br/>
+  <img src="/images/Edge-aware/convolution.png" width="85%" /><br/>
   <br/>Fig. 1: Visual illustration of 2D convolution [2]<br/>
 </p>
 
@@ -39,7 +39,7 @@ comes from the observation that image contents and complex manipulations are mor
 example of such piecewise smooth signals along with an example of domain transform application for edge-preserving filtering.
 
 <p align="center">
-  <img src="/images/domaintransform.png" width="100%"/><br/>
+  <img src="/images/Edge-aware/domaintransform.png" width="100%"/><br/>
   <br/>Fig. 2: 1D edge-preserving filtering using a piecewise linear function ct(u). (a) Input signal
 I. (b) ct(u). (c) Signal I plotted in the transformed domain (Ωw).
 Signal I filtered in Ωw with a 1D Gaussian (d) and plotted in Ω (e) [4].<br/>
@@ -55,7 +55,7 @@ A bilateral filter is a nonlinear operator that smoothes an image while retainin
 from the fact that it reduces the weights of nearby pixels whose values largely differ from the input pixel.
 
 <p align="center">
-  <br/><img src="/images/bf_eqn.png" width="100%"/><br/>
+  <br/><img src="/images/Edge-aware/bf_eqn.png" width="100%"/><br/>
   Eqn. 1: Bilateral filter definition for an image I, at position p [5]<br/>
 </p>
 Here, G<sub>σs</sub> is a Gaussian on the spatial distance and G<sub>σr</sub> a Gaussian on the pixel value difference. The output pixel is a weighted average where 
@@ -63,13 +63,13 @@ the weight is the product of G<sub>σs</sub> and G<sub>σr</sub>, the latter, al
 those on the other side so that the range variation in pixel values wouldn't smooth strong edges [3].
 
 <p align="center">
-  <br/><img src="/images/bilateral_filtering.png" width="700"/><br/>
+  <br/><img src="/images/Edge-aware/bilateral_filtering.png" width="700"/><br/>
   Fig 3. Bilateral filtering. The spatial and range kernels, f and g respectively, combine to preserve edges [6].<br/>
 </p>
 
 <p align="center">
-  <img src="/images/Before_SF.png" width="49%" />
-  <img src="/images/BeforeAfter_BF.png" width="49%" /> 
+  <img src="/images/Edge-aware/Before_SF.png" width="49%" />
+  <img src="/images/Edge-aware/BeforeAfter_BF.png" width="49%" /> 
 </p>
 
 <p align="center">
@@ -93,13 +93,13 @@ edge-preserving filtering due to the isotropic, spatially-invariant and smooth G
 laplacian filter benefits from local processing in which it modifies each coefficient of the pyramid levels separately which better allows the filter to distinguish edges from details.
 
 <p align="center">
-  <img src="/images/llf1D.png" width="100%"/>
+  <img src="/images/Edge-aware/llf1D.png" width="100%"/>
 </p>
 <p align="center">
   Fig 5. 1D local laplacian filter implementation. L<sub>0</sub> and L<sub>1</sub> represent the first two laplacian levels [8].<br/>
 </p>
 <p align="center">
-  <img src="/images/llf_func.png" width="100%"/>
+  <img src="/images/Edge-aware/llf_func.png" width="100%"/>
 </p>
 <p align="center">
   Fig 6. A variety of pointwise functions r(i) applied to a local value g<sub>o</sub> to obtain the intermediate image [8].<br/>
@@ -111,9 +111,9 @@ intermediate signal is rendered. Later, its Laplacian pyramid is built and its v
 distinguish intricate details (red curve) from strong edges (blue curve).
 
 <p align="center">
-  <img src="/images/face113.jpg" width="32.5%" />
-  <img src="/images/BeforeAfter_test_LLF_a07_s_04.png" width="32.5%" />
-  <img src="/images/BeforeAfter_test_LLF_a2_s_02.png"  width="32.5%"/> 
+  <img src="/images/Edge-aware/face113.jpg" width="32.5%" />
+  <img src="/images/Edge-aware/BeforeAfter_test_LLF_a07_s_04.png" width="32.5%" />
+  <img src="/images/Edge-aware/BeforeAfter_test_LLF_a2_s_02.png"  width="32.5%"/> 
 </p>
 
 <p align="center">
@@ -121,7 +121,7 @@ distinguish intricate details (red curve) from strong edges (blue curve).
 </p>
 
 ## References
-[1] [MathWorks-Image filtering](https://uk.mathworks.com/help/images/what-is-image-filtering-in-the-spatial-domain.html) \
+[1] [MathWorks-Image filtering](https://uk.mathworks.com/help/images/Edge-aware/what-is-image-filtering-in-the-spatial-domain.html) \
 [2] [https://petar-v.com/GAT/](https://petar-v.com/GAT/) \
 [3] [Real-time edge-aware image processing with the bilateral grid](https://dl.acm.org/doi/pdf/10.1145/1276377.1276506) \
 [4] [Domain Transform for Edge-Aware Image and Video Processing](https://dl.acm.org/doi/pdf/10.1145/2010324.1964964) \

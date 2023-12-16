@@ -1,12 +1,12 @@
 ---
 title: 'Image-based Scene Manipulations'
 date: 2021-10-07
-teaser: "images/image_based_3d_scene.png"
+teaser: "images/SceneMan/image_based_3d_scene.png"
 description: Instead of manipulating 3D scenes with traditional graphics pipelines, can we edit rendered images in a photoreaistic way to reduce the computational complexity?
 ---
 
 <p align="center">
-  <img src="/images/image_based_3d_scene.png" width="700"/><br/>
+  <img src="/images/SceneMan/image_based_3d_scene.png" width="700"/><br/>
   <br/>Fig. 1: Image-based scene manipulations edit 2D views of a scene to change the appearance of objects. Unlike scene-level manipulations, they do not infer the 3D information.<br/>
 </p>
 Scene manipulations, such as material editing, filtering, relighting, or geometry deformation, can be done on scene-level with traditional computer graphics techniques or on image-level with modern techniques.
@@ -18,7 +18,7 @@ Image-based scene manipulations edit 2D views (images) to alter object propertie
 ## Material editing
 
 <p align="center">
-  <img src="/images/material_edit.png" width="700"/><br/>
+  <img src="/images/SceneMan/material_edit.png" width="700"/><br/>
   <br/>Fig. 2: Editing material properties, such as gloss, shade, or kind, on image-level can manipulate the appearance of materials in a scene.<br/>
 </p>
 
@@ -31,7 +31,7 @@ More recently, works have focused on simplifying and speeding up this editing pi
 ## Relighting
 
 <p align="center">
-  <img src="/images/relighting.png" width="700"/><br/>
+  <img src="/images/SceneMan/relighting.png" width="700"/><br/>
   <br/>Fig. 3: Portrait relighting is a special kind of image relighting, changing the lighting properties, such as brightness and direction of light sources, on portrait photos [Debevec et al. 2000].<br/>
 </p>
 
@@ -42,7 +42,7 @@ Photographs can also be relit after the photo-shooting with some software tools.
 ## Geometry Editing
 
 <p align="center">
-  <img src="/images/novel_view.png" width="700"/><br/>
+  <img src="/images/SceneMan/novel_view.png" width="700"/><br/>
   <br/>Fig. 2: Novel view synthesis from a sparse set of input images as an example of geometry editing [Mildenhall et al. 2020]<br/>
 </p>
 

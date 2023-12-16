@@ -1,7 +1,7 @@
 ---
 title: 'Material Appearance Representation'
 date: 2023-06-13
-teaser: images/BRDF.png
+teaser: images/Material/BRDF.png
 description: Material properties define its appearance. How do we represent the appearance of materials?
 ---
 
@@ -21,14 +21,14 @@ The second reflection mechanism is where some of the light enters the material a
 Body or diffuse reflection gives objects a matte appearance, and materials with non-homogenious medium, such as clay or paper, usually cause such reflection.
 
 <p align="center">
-  <img src="/images/reflection-mechanisms.png" width="66%" /><br/>
+  <img src="/images/Material/reflection-mechanisms.png" width="66%" /><br/>
   <br/>Fig. 3: Surface vs Diffuse reflection [3].<br/>
 </p>
 
 In general, materials exhibit both reflection types. Hence, the reflection becomes hybrid, which is the combination of specular and diffuse reflection:
 
 <p align="center">
-  <img src="/images/hybrid-reflection.jpg" /><br/>
+  <img src="/images/Material/hybrid-reflection.jpg" /><br/>
   <br/>Fig. 4: Hybrid reflection is a combination of both diffuse and specular reflection.<br/>
 </p>
 
@@ -37,12 +37,12 @@ In general, materials exhibit both reflection types. Hence, the reflection becom
 Reflectance describes the amount of light reflected from the surface of a material. In general, the amount of reflected light may change at each point on the surface, and for each possible direction of incoming ($\omega_i$) and outgoing ($\omega_o$) light. Therefore, a complete way of representing the reflectance properties of a material is by defining a 6-dimensional function f($\omega_i$, $\omega_o$, **x**) of how light is reflected at location **x** of the surface, which is known as spatially-varying bidirectional reflectance distribution function (SVBRDF).
 
 <p align="center">
-  <img src="/images/BRDF.png" width="75%" /><br/>
+  <img src="/images/Material/BRDF.png" width="75%" /><br/>
   <br/>Fig. 1: How much incoming light is reflected from the surface is defined by the bidirectional reflectance distribution function (BRDF) [1].<br/>
 </p>
 
 <p align="left">
-  <img style="float: right;" src="/images/Four-angular-parameters-of-BRDF_W640.jpg" width="25%" /><br/>
+  <img style="float: right;" src="/images/Material/Four-angular-parameters-of-BRDF_W640.jpg" width="25%" /><br/>
 </p>
 
 Simplifying the SVBRDF, let's start with a 4-dimensional function of incident and reflected lights $\omega_i$ and $\omega_r$. The BRDF outputs the ratio of reflected radiance leaving the surface along $\omega_r$ to the irradiance coming from direction $\omega_i$. The directions are parameterized by two angles, azimuth angle $\phi$ and zenith angle $\theta$, making the function with four variables. So,
@@ -58,7 +58,7 @@ BRDF completely describes the reflectance properties of a point on the material 
 For **rotationally symmetric reflectance (isotropic surfaces)**, BRDF is a 3-D function: $f(\theta_i, \theta_r, \phi_i - \phi_r)$. If a surface is isotropic, it means that the brightness of the point of interest on the surface remains the same when the surface spins around its surface normal. In other words, the image/appearance of the material surface will not change when the surface is rotated. It happens especially when the surface has grooves which are directional. 
 
 <p align="center">
-  <img src="/images/isotropicvsanisotropic.jpeg" width="66%" /><br/>
+  <img src="/images/Material/isotropicvsanisotropic.jpeg" width="66%" /><br/>
   <br/>Fig. 2: The appearance of the isotropic sphere does not chance as it is rotated around its center [2].<br/>
 </p>
 
@@ -83,7 +83,7 @@ The Phong reflection model, one of the most popular reflection models in compute
 Phong also takes into account the small amount of light bouncing in the scene and includes an ambient term:
 
 <p align="center">
-  <img src="/images/Phong_components_version_4.png" /><br/>
+  <img src="/images/Material/Phong_components_version_4.png" /><br/>
   <br/>Fig. 5: Visual illustration of Phong model. Here, the source light is white and ambient and diffuse components are blue. The specular color is white, illustrating the reflected light in small and intense highlights. The ambient term is uniform, independent of direction.<br/>
 </p>
 

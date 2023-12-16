@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Super-resolution
-img: images/SR-buutterfly-teaser.png
+img: images/SR/SR-buutterfly-teaser.png
 collection: projects
 
 importance: 3
@@ -19,7 +19,7 @@ where $\textbf{I}^{\textit{LR}}$ is the LR image, $\textbf{I}^{\textit{HR}}$ is 
 In this project, I first implemented Irani-Peleg's IBP algorithm, an MISR technique, and compared it with a convolutional neural network (CNN) implementation. Later, I implemented a sub-pixel CNN and analyzed it with different parameters and loss functions. I used AWS for training process. During my reseach journey, I found some interesting results on the limitation of SR and on the checkerboard artifacts.
 * Limitation of SR:
 <p align="center">
-  <img src='/images/SR-power.png'/><br/>
+  <img src='/images/SR/SR-power.png'/><br/>
   <br/>First Row: Sub-pixel CNN, Second Row: Bicubic Interpolation<br/>
   Fig. 1: FFT-Error Results of ’comic’ Image<br/>
 </p>
@@ -27,7 +27,7 @@ Figure 1 shows the absolute difference between the reconstructed ’comic’ ima
 
 * Checkerboard Artifacts
 <p align="center">
-  <br/><img src='/images/ca.png'/><br/>
+  <br/><img src='/images/SR/ca.png'/><br/>
   <br/>First Row: Sub-pixel CNN with Perceptual Loss, Second Row: Sub-pixel CNN with Pixel-wise L2-Norm Loss<br/>
   Fig. 2: FFT-Error Results<br/>
 </p>
@@ -35,7 +35,7 @@ The checkerboard artifacts occur in an image due to pixel replication during the
 
 Checkerboard artifacts can be eliminated with an ideal low-pass filter. The radius of the filter should be carefully chosen. 
 <p align="center">
-  <br/><img src='/images/cali.png'/><img src='/images/casiz.png'/><br/>
+  <br/><img src='/images/SR/cali.png'/><img src='/images/SR/casiz.png'/><br/>
   <br/>Left: Image before Low-pass Filtering, Right: Image after Low-pass Filtering<br/>
   Fig. 3: Reconstructed 'butterfly' Images<br/>
 </p>
