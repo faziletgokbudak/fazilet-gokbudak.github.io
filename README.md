@@ -12,4 +12,4 @@ If you would like to add blog posts, put the files in either md or html format u
 
 If you would like to add new single pages, such as for projects, teaching, CV and so on, you need to add the html files under _pages directory and add them to _data/navigation.yml. 
 
-You can choose different layout options from _layouts option for a new page, or design your own and add it to _layouts folder. 
+You can choose different layout options from _layouts folder for a new page, or design your own and add it to _layouts folder. 
