@@ -225,9 +225,6 @@
 
   li {
     white-space: nowrap;
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   a {
@@ -242,9 +239,6 @@
 
     &:hover {
       text-decoration: underline;
-    }
-    @include breakpoint($large) {
-      display: none;
     }
   }
 }
