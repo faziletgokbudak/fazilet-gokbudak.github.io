@@ -149,13 +149,10 @@
     a {
       margin-bottom: 0;
     }
-    @include breakpoint($large) {
-       display: none;
-     }
   }
 
   @include breakpoint($large) {
-    display: none;
+    display: block;
   }
 
   button {
