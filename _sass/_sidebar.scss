@@ -99,6 +99,12 @@
   display: flex;
   background-color: #FFFFFF;
   align-items: center;
+
+  @include breakpoint($large) {
+    padding-left: 0;
+    padding-left: 2.25em;
+    align-items: center;
+  }
 }
 
 .author__content {
