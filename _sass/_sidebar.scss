@@ -97,8 +97,7 @@
 
 @media only screen and (max-width: 768px) {
   .author__avatar{
-    padding-left: 2.25em;
-    align-items: center;
+    margin-left: 2em;
   }
 }
 
@@ -124,8 +123,8 @@
 
 @media only screen and (max-width: 768px) {
   .author__content{
-    padding-left: 2.25em;
-    align-items: center;
+    padding-left: 2em;
+//     align-items: center;
   }
 }
 
