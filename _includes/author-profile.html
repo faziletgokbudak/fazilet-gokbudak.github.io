@@ -5,7 +5,7 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-  <div class="flex-container-2">
+<!--  <div class="flex-container-2">-->
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}">
@@ -19,13 +19,13 @@
       {% if author.bio %}<p style="text-align:center;font-size:1rem;" class="author__name">{{ author.bio }}</p>{% endif %}
       {% if author.employer %}<p style="text-align:center;font-size:0.92rem" class="author__name">{{ author.employer }}</p>{% endif %}
     </div>
-  </div>
+<!--  </div>-->
 
-  <div class="social">
+    <div class="social">
       <div class="contact-icons">
         {% include social.html %}
       </div>
-  </div>
+    </div>
 
 <!--  <div class="author__urls-wrapper">-->
 <!--    <button class="btn btn&#45;&#45;inverse">Profile Links</button>-->
