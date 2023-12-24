@@ -72,7 +72,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 3em;
 
   // set width only, for non-square avatars
   // height: 36px;
@@ -84,7 +84,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 15em;
     border-radius: 50%;
 
 
@@ -98,8 +98,8 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: 1.25em;
+  padding-right: 2.08em;
   line-height: 1;
 
 
@@ -108,15 +108,8 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
-
+    align-items: center;
   }
-//   .center {
-// //   border: 5px solid;
-// //   margin: auto;
-// //   width: 50%;
-// //   padding: 10px;
-// }
 }
 
 .author__name {
