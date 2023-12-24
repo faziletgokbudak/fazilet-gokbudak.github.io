@@ -89,21 +89,19 @@
 
 
     @include breakpoint($large) {
-//       padding: 5px;
-      padding-left: 2.25em;
+      padding: 5px;
       border: 1px solid $border-color;
     }
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .author__avatar{
+    padding-left: 2.25em;
+    align-items: center;
+  }
+}
 
-// @media only screen and (max-width: 768px) {
-//   .flex-container-2{
-//     display: flex;
-// //     padding-left: 2.25em;
-//     align-items: center;
-//   }
-// }
 
 
 .author__content {
@@ -117,8 +115,16 @@
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 2.25em;
+    padding-left: 0;
     padding-right: 0;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .author__content{
+    padding-left: 2.25em;
     align-items: center;
   }
 }
