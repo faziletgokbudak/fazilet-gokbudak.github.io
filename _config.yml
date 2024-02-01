@@ -195,17 +195,17 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+#  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: true
+#      share: true
+#      related: true
   # _pages
   - scope:
       path: ""
@@ -213,16 +213,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: page
-      author_profile: true
-      share: true
-      comment: true
-      horizontal: false
+#  # _projects
+#  - scope:
+#      path: ""
+#      type: projects
+#    values:
+#      layout: page
+#      author_profile: true
+#      share: true
+#      comment: true
+#      horizontal: false
 
 # Sass/SCSS
 sass:
