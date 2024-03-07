@@ -87,7 +87,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Hypernetworks for Generalizable BRDF Estimation</h1>
+          <h1 class="title is-1 publication-title">Hypernetworks for Generalizable BRDF Representation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://faziletgokbudak.github.io/">Fazilet Gokbudak</a><sup>1</sup>,
@@ -202,20 +202,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In this paper, we introduce a technique to estimate measured BRDFs from a sparse set of samples.
-          </p>
-          <p>
-             Our approach offers accurate BRDF reconstructions that are generalizable to new materials. This opens the door to BDRF recon-
-            structions from a variety of data sources. The success of our approach relies on the ability of hypernetworks to generate
-            a robust representation of BRDFs and a set encoder that allows us to feed inputs of different sizes to the architecture.
-            We evaluate our technique both qualitatively and quantitatively on the well-known MERL dataset of 100 isotropic materials. Our approach accurately estimates the BRDFs
-            of unseen materials even for an extremely sparse sampling.
+             In this paper, we introduce a technique to estimate measured BRDFs from a sparse set of samples. Our approach offers accurate BRDF reconstructions that are generalizable to new materials. This opens the door to BDRF reconstructions from a variety of data sources. The success of our approach relies on the ability of hypernetworks to generate a robust representation of BRDFs and a set encoder that allows us to feed inputs of different sizes to the architecture. The set encoder and the hypernetwork also enable the compression of densely sampled BRDFs. We evaluate our technique both qualitatively and quantitatively on the well-known MERL dataset of 100 isotropic materials. Our approach accurately 1) estimates the BRDFs of unseen materials even for an extremely sparse sampling, 2) compresses the measured BRDFs into very small embeddings, e.g., 7D.
           </p>
           <p>
             <ul>
-  <li><b>Generalizability and Adaptability:</b> Our methodology ensures robustness and adaptability across varying sample sizes and appearances,
-    making it highly effective for estimating the BRDFs of unseen materials from highly sparse and unstructured sampling.</li>
-  <li><b>Realism and Accuracy:</b> Our extensive evaluation on the MERL dataset demonstrates the superior performance of our approach in
+  <li><b>Generalizability and Adaptability:</b> Generalizability and Adaptability:} Our methodology ensures robustness and adaptability across varying sample sizes and appearances, making it highly effective for estimating the BRDFs of unseen materials from highly sparse and unstructured sampling. Its adaptability also extends to highly compact representation of BRDFs, overall outperforming the prior state-of-the-art compression method.</li>
+  <li><b>Realism and Accuracy:</b> Our extensive evaluation demonstrates the superior performance of our approach in
     reconstructing the BRDFs of 20 test materials from a limited number of samples, ranging from 40 to 4000, outperforming prior methods
     in terms of appearance modeling and color preservation (by at least 2dB in peak-signal-to-noise ratio and 1 in Delta E).</li>
             </ul>
@@ -448,7 +440,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{gokbudak2023hypernetworks,
-  title      = {Hypernetworks for Generalizable BRDF Estimation},
+  title      = {Hypernetworks for Generalizable BRDF Representation},
   author     = {Fazilet Gokbudak and Alejandro Sztrajman and Chenliang Zhou and Fangcheng Zhong and Rafal Mantiuk and Cengiz Oztireli},
   journal    = {arXiv preprint arXiv:2311.15783},
   year       = {2023}
