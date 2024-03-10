@@ -121,6 +121,13 @@ body {
   border-radius: 10px;
   padding: 0;
   font-size: 0;
+
+}
+
+.results-carousel .item:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2);
 }
 
 .results-carousel video {
@@ -150,8 +157,11 @@ body {
 }
 
 #interpolation-image-wrapper {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
