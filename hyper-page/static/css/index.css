@@ -132,7 +132,7 @@ body {
 
 }
 
-.results-carousel .item:hover {
+.carousel-inner .item:hover {
   -ms-transform: scale(2); /* IE 9 */
   -webkit-transform: scale(2); /* Safari 3-8 */
   transform: scale(2);
