@@ -2,13 +2,11 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.author-block {
-    font-size: 1.5vw;
-}
+
 
 .carousel-indicators li {
     position: relative;
-    left: -55%;
+    left: -53%;
 }
 
 .footer .icon-link {
